@@ -6,20 +6,19 @@ Este projeto implementa uma solucao de traducao automatica de artigos tecnicos u
 
 ## Arquitetura da Solucao
 
-```
-Artigo Original (URL/Texto)
-        |
-        v
-[Camada de Extracao] --> Extrai conteudo do artigo
-        |
-        v
-[Azure Translator API] --> Traduz o conteudo preservando formatacao
-        |
-        v
-[Azure OpenAI] --> Refina terminologia tecnica com contexto
-        |
-        v
-Artigo Traduzido (Markdown/HTML)
+```mermaid
+flowchart LR
+    A[Artigo Fonte\nURL / Texto] --> B[Deteccao de Idioma\nAzure Translator]
+    B --> C[Azure Translator API\nTraducao Neural]
+    C --> D[Mapeamento Terminologico\nAzure OpenAI / GPT]
+    D --> E[Saida Traduzida\nMarkdown / HTML]
+    E --> F[Verificacao de Qualidade\nRevisao Terminologica]
+
+    subgraph Servicos Azure
+        B
+        C
+        D
+    end
 ```
 
 ## Tecnologias Utilizadas
