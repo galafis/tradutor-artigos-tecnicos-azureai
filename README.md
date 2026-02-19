@@ -1,5 +1,15 @@
 # Tradutor de Artigos Tecnicos com Azure AI
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+</div>
+
+
 ## Descricao
 
 Este projeto implementa uma solucao de traducao automatica de artigos tecnicos utilizando os servicos de IA do Azure (Azure OpenAI e Azure Translator). O foco principal e garantir precisao terminologica e contexto especifico do dominio tecnico, facilitando o acesso a conteudos especializados em diferentes idiomas.
@@ -102,3 +112,32 @@ streamlit run app.py
 5. Visualize e exporte o artigo traduzido
 
 ## Projeto desenvolvido como parte do Microsoft Certification Challenge #4 - AI-102 na plataforma DIO.
+
+
+---
+
+## English
+
+### Overview
+
+Tradutor de Artigos Tecnicos com Azure AI - A project built with Python, HTML, Azure, developed by Gabriel Demetrios Lafis as part of professional portfolio and continuous learning in Data Science and Software Engineering.
+
+### Key Features
+
+This project demonstrates practical application of modern development concepts including clean code architecture, responsive design patterns, and industry-standard best practices. The implementation showcases real-world problem solving with production-ready code quality.
+
+### How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/galafis/tradutor-artigos-tecnicos-azureai.git
+   ```
+2. Follow the setup instructions in the Portuguese section above.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Developed by [Gabriel Demetrios Lafis](https://github.com/galafis)
